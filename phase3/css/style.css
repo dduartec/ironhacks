@@ -1,0 +1,163 @@
+*{
+	margin:opx;
+	padding:0px;
+	/*background-color: ;*/
+}
+body{
+	background-color:azure;
+}
+#general{
+	margin:auto;
+	height:100%;
+	/*background-color: black;*/
+	
+}
+#name {
+	font-family: 'Pacifico', cursive;
+	font-size: 50px;
+	color:lightslategray;
+	text-align:center;
+}
+#map{
+	float:left;
+    height: 700px;
+    width: 50%;
+}
+#secondHalf{
+	float:left;
+    width: 50%;
+	height:700px;
+	/*background-color: yellow;*/
+}
+#weather{
+	margin-left:3%;
+	margin-right:3%;
+    height: 15%;
+	width : 90%; 
+    padding: 2px;
+	border-style:solid;
+	border-color:black;
+	border-radius: 20px;
+	/*background-color: cyan;*/
+}
+#w{
+	width: 70%;
+	font-size:120%;
+	font-family: 'Fjalla One', sans-serif;
+	text-align:center;
+	/*background-color:green;*/
+	float: left;
+}
+#icon{
+	margin-top:3%;
+	width:25%;
+	float: right;
+	/*background-color: red;*/
+}
+#SCBox{
+	float: left;
+	/*height: 30%;*/
+	width : 90%;
+	/*background-color:red;*/
+	margin-left:3%;
+	margin-right:3%;
+	font-family: 'Fjalla One', sans-serif;
+}
+#SearchChriteria{
+	/*background-color:blue;*/
+	font-family: 'Lobster', cursive;
+	font-size: 25px;
+	text-align:center;
+}
+#in1{
+	width: 17%;
+}
+#search{
+	/*background-color: green;*/
+	width: 100%;
+	float: left;
+}
+#butt1{
+	margin-right: 3%;
+	float: right;
+	padding: 3px;
+	border-radius: 3px;
+	background-color: lightslategray;
+	color: azure;
+}
+
+
+#options{	
+	/*background-color: green;*/
+    height: 50%;
+	width : 90%;
+	margin-left:3%;
+	margin-right:3%;	
+}
+#bud{
+	/*background-color:blue;*/
+	font-family: 'Lobster', cursive;
+	font-size: 25px;
+	text-align:center;
+}
+#selects1{
+	float: left;
+	margin-top: 2%;
+	font-family: 'Fjalla One', sans-serif;
+	/*font-family: 'Lobster', cursive;*/
+	font-size:120%;
+	/*background-color: blue;*/
+	width: 32%;
+}
+#selects2{
+	float: right;
+	margin-top: 2%;
+	font-family: 'Fjalla One', sans-serif;
+	/*font-family: 'Lobster', cursive;*/
+	font-size:120%;
+	/*background-color: red;*/
+	width: 32%;
+
+}
+#igs{
+	margin-top: 4%;
+}
+#cgs{
+	margin-top: 4%;
+}
+
+#selects3{
+	float: right;
+	margin-top: 2%;
+	font-family: 'Fjalla One', sans-serif;
+	/*font-family: 'Lobster', cursive;*/
+	font-size:120%;
+	/*background-color: red;*/
+	width: 32%;
+	margin-right: 2%;
+
+}
+#libraries{
+	margin-top: 4%;
+	/*margin-top:4%;*/
+}
+#ps{
+	margin-top: 4%;
+	/*margin-top:4%;*/
+}
+#fs{
+	margin-top: 4%;
+	/*margin-top:4%;*/
+}
+#clinics{
+	margin-top: 4%;
+	/*margin-top:4%;*/
+}
+#cd{
+	margin-top: 4%;
+	/*margin-top:4%;*/
+}
+#br{
+	margin-top: 4%;
+	/*margin-top:4%;*/
+}
