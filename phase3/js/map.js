@@ -10,7 +10,7 @@ function initMap() {
 		position: {lat: 41.8708, lng: -87.667577}, 
 		map: map,
 		title: 'University of Illinois', 
-		icon: 'markers/un.png'
+		icon: 'markers/un.PNG'
 	})	
 	rentHouses();
 	libraries();
