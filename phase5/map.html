@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>FindMeAPlace</title>
+    <meta name="viewport" content="initial-scale=1.0">
+    <meta charset="utf-8">
+	<script
+	src="https://code.jquery.com/jquery-3.2.1.js"
+	integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="css/style.css" >
+	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Pacifico">
+
+	<link href="css/c3.css" rel="stylesheet" type="text/css">
+	<script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+    <script src="js/c3.js"></script>
+
+	<script src="js/map.js"></script>	
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA6qhfsipX8TGI2Tx9-ncqzy5UfeJcIyI8&callback=initMap&libraries=geometry&libraries=visualization" async defer></script>
+	<link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+	<script src="js/superplaceholder.js"></script>
+	<script src="js/weather.js"></script>
+	
+  </head>
+  <body>
+	<div id="general">
+		<div id="name">
+			<h2>FindMeAPlace</h2>
+		</div>
+		<div id="map"></div>
+		<div id="secondHalf">
+			<div id="weather">
+				<div id="w"></div>
+				<div id="icon"></div>
+			</div>
+			<div id="SCBox">
+				<div id="bud" >Search Chriteria</div>
+				<div id="distance">
+					<div i="dis">Distance to the University  
+					<input id="in1" type="text" value placeholder="" autocomplete="off">
+					mts
+					</div>
+				</div>
+				<div id="distance">
+					<div i="dis">Security  
+					<select id="sel1">
+					<option value="All">All</option>
+					<option value="Safe">Safe</option>
+					<option value="Safer">Safer</option>
+					</select>
+					</div>
+				</div>
+				<input type="checkbox" id="cb"  /> 
+					Toggle crimes
+					<br>
+				<div id="search">
+					<input id="butt1" type="submit" value="Search">
+				</div>
+
+			</div>
+			<div id="options">
+				<div id="bud">Options</div>
+				<div id="selects1">					
+					<input type="checkbox" id="libraries" checked="true" /> 
+					Libraries
+					<br>
+					<input type="checkbox" id="ps"  checked="true"  /> 
+					Police Stations
+					<br>					
+					<input type="checkbox"  id="fs" checked="true" /> 
+					Fire Stations
+				</div>
+				<div id="selects2">
+					Grocery stores:
+					<br>					
+					<input type="checkbox" id="igs"  checked="true"  />
+					Independent 
+					<br>					
+					<input type="checkbox"  id="cgs" checked="true" /> 
+					Chain
+				</div>
+				<div id="selects3">					
+					<input type="checkbox" id="cd" checked="true" />
+					Condom Distibution 
+					<br>					
+					<input type="checkbox" id="br"  /> 
+					Bike Racks
+					<br>					
+					<input type="checkbox"  id="clinics" checked="true" /> 
+					Clinics
+				</div>
+			</div>
+			<div id="data">
+			<div id ="bud">Infomation</div>
+				<div id="infbox">				
+					<b>Name: </b><label id="lb1"></label><br>
+					<b>Address: </b><label id="lb2"></label><br>
+					<b>Number: </b><label id="lb3"></label><br>
+					<b>Type: </b><label id="lb4"></label><br>
+				</div>
+				<div id="chart">
+					
+				</div>
+			</div>
+		</div>
+	</div>
+  </body>
+  <footer>
+  	Diego Duarte Camacho- Universidad Nacional de Colombia 
+  </footer>
+</html>
